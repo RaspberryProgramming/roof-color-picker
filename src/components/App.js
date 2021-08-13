@@ -8,7 +8,9 @@ const options = [
   { name: "Barkwood", pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-barkwood.jpg", displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-barkwood-house_1000.jpg", "https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/hdz-barkwood-orlando-house_1000.jpg", "https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/hdzbarkwoodorlandohouseaerial1000.jpg"],},
   { name: "Birchwood", pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-birchwood.jpg", displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-birchwood-house_1000.jpg"],},
   { name: "Charcoal", pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-charcoal.jpg", displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-charcoal-house_1000.jpg", "https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/hdz-charcoal-windproven-brickhouse-aerialshot_1000.jpg", ],},
-
+  { name: "Biscayne Blue", pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-biscayne_blue.jpg", displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-biscayneblue-house_1000.jpg"],},
+  { name: "Driftwood", pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-driftwood.jpg", displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-driftwood-house_1000.jpg"],},
+  
 ];
 
 function App() {
