@@ -1,0 +1,59 @@
+.pickerBox {
+  padding: 5px;
+  width: 10rem;
+  height: 5rem;
+  color:white;
+  border-radius: 5px;
+  background-size: cover;
+  margin-top: 10px;
+  transition: box-shadow 300ms ease-out;
+  box-shadow: 0px 0px 0px 0px lightblue;
+
+}
+
+.pickerBox.selected {
+  transition: box-shadow 300ms ease-in;
+  border-width: 1px;
+  border-color:blue;
+  border-style:solid;
+  box-shadow: 0px 0px 5px 5px lightblue;
+}
+
+.picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  padding:10px;
+  padding-top:0;
+  width: 15rem;
+  height: 100%;
+  background-color: rgba(0,0,0,0.05);
+  margin:0;
+
+}
+
+.display {
+  width: 50rem;
+  height:50rem;
+  margin:0;
+  padding:0;
+}
+
+.display img {
+  width:inherit;
+  height:inherit;
+}
+
+.color-picker {
+  border: .2rem solid #ececec;
+  width:fit-content;
+  margin:0;
+  padding:0;
+
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
