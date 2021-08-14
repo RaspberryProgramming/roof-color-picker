@@ -3,8 +3,9 @@ import {Carousel} from 'react-bootstrap';
 
 const Display = ({options, selected}) => {
   const images = options[selected].displayImages.map((image, index) => {
+    console.log(index);
     return (
-      <Carousel.Item key={index} >
+      <Carousel.Item key={index} className={`${index === 0 ? 'active': ''}`}>
         <img alt={index} src={image} className="d-block w-100"/>
       </Carousel.Item>
     );
