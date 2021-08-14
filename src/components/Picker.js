@@ -15,16 +15,12 @@ const Picker = ({options, selected, setSelected, picker, setPicker}) => {
 
   const boxes = options.map((option, index) => {
 
-      if (picker !== Math.floor(index/7)) {
-        return (<div key={index}></div>);
-      }
-
       return (
         <div key={index}
           style={{
             backgroundImage: `url(${option.pickerImage})`
           }}
-          className={`pickerBox ${selected === index ? 'selected' : ''}`}
+          className={`pickerBox ${selected === index ? 'selected' : ''} ${picker === Math.floor(index/7) ? 'visible' : ''}`}
           onClick={() => setSelected(index)}
         >
           <p>{option.name}</p>
