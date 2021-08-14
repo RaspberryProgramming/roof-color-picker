@@ -8,7 +8,7 @@
   margin-top: 10px;
   transition: box-shadow 300ms ease-out;
   box-shadow: 0px 0px 0px 0px lightblue;
-
+  flex-shrink:0;
 }
 
 .pickerBox.selected {
@@ -19,18 +19,28 @@
   box-shadow: 0px 0px 5px 5px lightblue;
 }
 
-.picker {
+.picker-items {
   display: flex;
   flex-direction: column;
+  flex-shrink:0;
   align-items: center;
   justify-content:center;
   padding:10px;
   padding-top:0;
-  width: 15rem;
-  height: 100%;
-  background-color: rgba(0,0,0,0.05);
-  margin:0;
+  width: 10rem;
 
+
+  margin:0;
+  height: 50rem;
+}
+
+.picker {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-around;
+  background-color: rgba(0,0,0,0.05);
+  width:17.5rem;
 }
 
 .display {
@@ -48,7 +58,7 @@
 
 .color-picker {
   border: .2rem solid #ececec;
-  width:fit-content;
+  width: fit-content !important;
   margin:0;
   padding:0;
 

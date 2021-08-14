@@ -17,12 +17,13 @@ const options = [
 
 function App() {
   const [selected, setSelected] = useState(0);
+  const [picker, setPicker] = useState(0);
 
   return (
-    <Container fluid="md" className="color-picker">
-      <Row>
+    <Container fluid="md">
+      <Row className="color-picker">
         <Col md="auto nopadding">
-          <Picker options={options} selected={selected} setSelected={setSelected}/>
+          <Picker options={options} selected={selected} setSelected={setSelected} picker={picker} setPicker={setPicker}/>
         </Col>
         <Col md="auto nopadding">
           <Display options={options} selected={selected}/>
