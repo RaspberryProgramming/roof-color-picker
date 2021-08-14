@@ -29,10 +29,10 @@ function App() {
     </Navbar>
     <Container className="color-picker p-5">
       <Row>
-        <Col md="auto nopadding">
+        <Col md="auto p-0 m-0">
           <Picker options={options} selected={selected} setSelected={setSelected} picker={picker} setPicker={setPicker} newColorSelected={newColorSelected}/>
         </Col>
-        <Col md="auto nopadding">
+        <Col md="auto p-0 ms-auto me-auto">
           <Display options={options} selected={selected} colorSelected={colorSelected} newColorSelected={newColorSelected}/>
         </Col>
       </Row>

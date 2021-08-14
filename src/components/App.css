@@ -4,6 +4,10 @@ main {
   height:100vh;
 }
 
+.navbar .container {
+  max-width:none;
+}
+
 .pickerBox {
   display:none;
   padding: 5px;
@@ -56,32 +60,54 @@ main {
   flex-direction:column;
   align-items:center;
   height:50rem;
+  justify-content: center;
+  height:100%;
 }
 
 .display {
-  width: 50rem;
-  height: 50rem;
-  margin:0;
+  height: calc(90vh - 10rem);
+  width: calc(90vh - 10rem);
+  margin-left: auto;
+  margin-right: auto;
   padding:0;
   background-color: #e1e1e1;
   border: .3rem solid #e1e1e1;
   border-radius:5px;
 }
 
-.display img {
-  height:49.5rem;
-  width:49.5rem;
-  object-fit: cover;
-  border-radius:5px;
+.carousel img {
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.row,
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+}
+.carousel-inner {
+    height: calc(89.4vh - 10rem);
+    width: calc(89.4vh - 10rem);
 }
 
 .color-picker {
+  display:flex;
+
   background-color: rgba(0,0,0,0.05);
   border: .5rem solid #ececec;
   border-radius: 10px;
-  width: fit-content;
+  flex: 1 1 auto;
   margin:0;
   padding:0;
+  width:100% !important;
+  max-width: none;
+  justify-content: center;
 }
 
 .nopadding {
@@ -103,13 +129,18 @@ main {
     transform: translateX(100%);
 }
 
-@media all and (min-width : 320px) and (max-width : 60rem) {
+.row {
+  display:flex;
+  width:100vw;
+  margin:0;
+  height:100%;
+  justify-content: start;
+}
+
+@media all and (min-width : 320px) and (max-width : 1200px) {
   .row {
     flex-direction:column-reverse;
-    width:100vw;
-    margin:0;
-    height:100%;
-    justify-content: start;
+    justify-content: flex-end;
   }
   .root {
     width:100vw;
@@ -128,12 +159,12 @@ main {
     height: 10rem;
   }
   .color-picker {
-    width:100vw;
+
     align-items:center;
     padding:0 !important;
     border-style:none;
     border-radius:0;
-    flex: 1 1 auto;
+
   }
   .picker-content {
     width:100vw;
