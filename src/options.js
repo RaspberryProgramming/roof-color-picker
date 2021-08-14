@@ -33,7 +33,11 @@ const options = [{
     pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-driftwood.jpg",
     displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-driftwood-house_1000.jpg"],
   },
-  
+  {
+    name: "Hunter Green",
+    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-hunter_green.jpg",
+    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-huntergreen-house_1000.jpg", "https://www.serrano2roofing.com/wp-content/gallery/hunter-green-roof-replacement-in-wurtsboro/hunter-green-roof-replacement-in-wurtsboro-7.png", "https://www.serrano2roofing.com/wp-content/gallery/hunter-green-roof-replacement-in-wurtsboro/hunter-green-roof-replacement-in-wurtsboro-6.jpg"],
+  },
 
 ];
 
