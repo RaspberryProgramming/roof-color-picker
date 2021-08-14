@@ -45,28 +45,32 @@
   flex-direction:column;
   align-items:center;
   height:50rem;
-  background-color: rgba(0,0,0,0.05);
 }
 
 .display {
   width: 50rem;
-  height:50rem;
+  height: 50rem;
   margin:0;
   padding:0;
+  background-color: #e1e1e1;
+  border: .3rem solid #e1e1e1;
+  border-radius:5px;
 }
 
 .display img {
-  width: 50rem;
-  height: 50rem;
+  height:49.5rem;
+  width:49.5rem;
   object-fit: cover;
+  border-radius:5px;
 }
 
 .color-picker {
-  border: .2rem solid #ececec;
+  background-color: rgba(0,0,0,0.05);
+  border: .5rem solid #ececec;
+  border-radius: 10px;
   width: fit-content !important;
   margin:0;
   padding:0;
-
 }
 
 .nopadding {

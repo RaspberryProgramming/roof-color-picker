@@ -20,8 +20,8 @@ function App() {
   const [picker, setPicker] = useState(0);
 
   return (
-    <Container fluid="md">
-      <Row className="color-picker">
+    <Container fluid="md" className="color-picker p-5">
+      <Row>
         <Col md="auto nopadding">
           <Picker options={options} selected={selected} setSelected={setSelected} picker={picker} setPicker={setPicker}/>
         </Col>

@@ -37,7 +37,7 @@ const Picker = ({options, selected, setSelected, picker, setPicker}) => {
   return (
 
     <div className="picker-content">
-      <h1>Pick a Color: </h1>
+      <h3>Pick a Color: </h3>
       <div className="picker">
         <div className="btn btn-outline-secondary" onClick={prev}>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-caret-left-fill" viewBox="0 0 16 16">
