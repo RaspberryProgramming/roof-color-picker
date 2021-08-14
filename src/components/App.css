@@ -41,8 +41,9 @@
 }
 
 .display img {
-  width:inherit;
-  height:inherit;
+  width: 50rem;
+  height: 50rem;
+  object-fit: cover;
 }
 
 .color-picker {
@@ -56,4 +57,18 @@
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
+}
+
+.carousel-item-next{
+  transition: transform 0s ease-in-out;
+}
+
+.carousel-item-prev{
+    transition: transform 0s ease-in-out;
+}
+.carousel-item-left {
+    transform: translateX(-100%);
+}
+.carousel-item-right {
+    transform: translateX(100%);
 }
