@@ -4,7 +4,7 @@ import {Carousel} from 'react-bootstrap';
 const Display = ({options, selected}) => {
   const images = options[selected].displayImages.map((image, index) => {
     return (
-      <Carousel.Item key={options.name}>
+      <Carousel.Item key={index} >
         <img alt={index} src={image} className="d-block w-100"/>
       </Carousel.Item>
     );
