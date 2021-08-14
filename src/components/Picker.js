@@ -1,13 +1,15 @@
 import React from 'react';
 
-const Picker = ({options, selected, setSelected, picker, setPicker}) => {
+const Picker = ({options, selected, setSelected, picker, setPicker, newColorSelected}) => {
   const prev = () => {
     if(picker > 0) {
+      newColorSelected(true);
       setPicker(picker-1);
     }
   };
   const next = () => {
     if(picker < (Math.floor(options.length)/7)-1) {
+      newColorSelected(true);
       setPicker(picker+1);
     }
   };
