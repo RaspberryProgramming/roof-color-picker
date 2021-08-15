@@ -19,6 +19,7 @@ const Display = ({options, selected, colorSelected, newColorSelected }) => {
 
   return (
     <div className="display">
+      <h3>{options[selected].name}</h3>
       <Carousel nextLabel={""} prevLabel={""}>
         {images}
       </Carousel>
