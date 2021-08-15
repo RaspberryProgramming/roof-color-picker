@@ -94,12 +94,42 @@ main {
     width: calc(89.4vh - 10rem);
 }
 
+.carousel a:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.carousel a:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.carousel-indicators {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10px;
+
+}
+
+.carousel-indicators li {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 25px;
+  height: 4px;
+  background-color: #212529;
+}
+
+.carousel-indicators li.active{
+
+  background-color: #fff;
+}
+
 .color-picker {
   display:flex;
-
   background-color: rgba(0,0,0,0.05);
-  border: .5rem solid #ececec;
-  border-radius: 10px;
+  border: .2rem solid #ececec;
   flex: 1 1 auto;
   margin:0;
   padding:0;
