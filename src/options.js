@@ -14,9 +14,9 @@ const options = [{
     displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-pewtergray-house_1000.jpg", "https://www.serrano2roofing.com/wp-content/gallery/roof-replacement-with-gaf-hdz-in-pewter-gray/roof-replacement-gaf-hdz-pewter-gray-7__after.jpg"]
   },
   {
-    name: "Birchwood",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-birchwood.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-birchwood-house_1000.jpg"],
+    name: "Hunter Green",
+    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-hunter_green.jpg",
+    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-huntergreen-house_1000.jpg", "https://www.serrano2roofing.com/wp-content/gallery/hunter-green-roof-replacement-in-wurtsboro/hunter-green-roof-replacement-in-wurtsboro-7.png", "https://www.serrano2roofing.com/wp-content/gallery/hunter-green-roof-replacement-in-wurtsboro/hunter-green-roof-replacement-in-wurtsboro-6.jpg"],
   },
   {
     name: "Charcoal",
@@ -24,21 +24,15 @@ const options = [{
     displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-charcoal-house_1000.jpg", "https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/hdz-charcoal-windproven-brickhouse-aerialshot_1000.jpg", ],
   },
   {
+    name: "Birchwood",
+    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-birchwood.jpg",
+    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-birchwood-house_1000.jpg"],
+  },
+  {
     name: "Biscayne Blue",
     pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-biscayne_blue.jpg",
     displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-biscayneblue-house_1000.jpg"],
   },
-  {
-    name: "Driftwood",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-driftwood.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-driftwood-house_1000.jpg"],
-  },
-  {
-    name: "Hunter Green",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-hunter_green.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-huntergreen-house_1000.jpg", "https://www.serrano2roofing.com/wp-content/gallery/hunter-green-roof-replacement-in-wurtsboro/hunter-green-roof-replacement-in-wurtsboro-7.png", "https://www.serrano2roofing.com/wp-content/gallery/hunter-green-roof-replacement-in-wurtsboro/hunter-green-roof-replacement-in-wurtsboro-6.jpg"],
-  },
-
 ];
 
 export default options;
