@@ -77,10 +77,8 @@ main {
 
 .carousel img {
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  height:100%;
+  object-fit: cover;
 }
 
 .row,
