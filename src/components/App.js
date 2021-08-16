@@ -16,17 +16,7 @@ function App() {
   const [colorSelected, newColorSelected] = useState(true);
 
   return (<main>
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand>Brand</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="https://github.com/RaspberryProgramming">Checkout More Projects</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <Navigation />
     <Container className="color-picker p-5">
       <Row>
         <Col md="auto p-0 m-0">
