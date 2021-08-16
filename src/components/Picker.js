@@ -1,15 +1,13 @@
 import React from 'react';
 
-const Picker = ({options, selected, setSelected, picker, setPicker, newColorSelected}) => {
+const Picker = ({options, selected, setSelected, picker, setPicker, setIndex}) => {
   const prev = () => {
     if(picker > 0) {
-      newColorSelected(true);
       setPicker(picker-1);
     }
   };
   const next = () => {
     if(picker < (Math.floor(options.length)/7)-1) {
-      newColorSelected(true);
       setPicker(picker+1);
     }
   };
@@ -23,7 +21,7 @@ const Picker = ({options, selected, setSelected, picker, setPicker, newColorSele
             backgroundImage: `url(${option.pickerImage})`
           }}
           className={`pickerBox ${selected === index ? 'selected' : ''} ${picker === Math.floor(index/7) ? 'visible' : ''}`}
-          onClick={() => setSelected(index)}
+          onClick={() => {setIndex(0); setSelected(index);} }
         >
           <p>{option.name}</p>
         </div>

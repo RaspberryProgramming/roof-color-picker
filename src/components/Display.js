@@ -1,11 +1,11 @@
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
 
-const Display = ({options, selected, colorSelected, newColorSelected }) => {
+const Display = ({options, selected, index, handleSelect}) => {
   const images = options[selected].displayImages.map((image, index) => {
     return (
-      <Carousel.Item key={index} className={`${index === 0 && colorSelected ? 'active': ''}`}>
-        <img alt={index} src={image} className="d-block w-100"/>
+      <Carousel.Item key={index} >
+        <img alt={index} src={image} className="d-block"/>
           <Carousel.Caption>
             <a className="btn btn-dark" href={image} target="_blank" rel="noreferrer">Open in Another Tab</a>
           </Carousel.Caption>
@@ -13,14 +13,10 @@ const Display = ({options, selected, colorSelected, newColorSelected }) => {
     );
   });
 
-  if(colorSelected) {
-    newColorSelected(false);
-  }
-
   return (
     <div className="display">
       <h3>{options[selected].name}</h3>
-      <Carousel nextLabel={""} prevLabel={""}>
+      <Carousel nextLabel={""} prevLabel={""} activeIndex={index} onSelect={handleSelect} >
         {images}
       </Carousel>
     </div>
