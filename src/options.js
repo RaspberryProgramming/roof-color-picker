@@ -1,46 +1,52 @@
 const options = [
   {
     name: "Barkwood",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-barkwood.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-barkwood-house_1000.jpg", "https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/hdz-barkwood-orlando-house_1000.jpg", "https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/hdzbarkwoodorlandohouseaerial1000.jpg"],
+    pickerImage: "img/barkwood-picker.webp",
+    displayImages: ["img/barkwood-1.webp", "img/barkwood-2.webp", "img/barkwood-3.webp", "img/barkwood-4.webp",],
     active: true,
   },
   {
     name: "Mission Brown",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-mission-brown.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-missionbrown-house_1000.jpg", "https://www.serrano2roofing.com/wp-content/gallery/roof-replacement-and-chimney-repair-on-big-island-rd-in-warwick-ny/Drone-1.jpg", "https://www.serrano2roofing.com/wp-content/gallery/roof-replacement-and-chimney-repair-on-big-island-rd-in-warwick-ny/Drone-2.jpg", "https://www.serrano2roofing.com/wp-content/gallery/church-roof-replacement-in-scotchtown-ny/cover_photo.jpg"],
+    pickerImage: "img/missionbrown-picker.webp",
+    displayImages: ["img/missionbrown-1.webp", "img/missionbrown-2.webp","img/missionbrown-3.webp","img/missionbrown-4.webp",],
     active: true,
   },
   {
     name: "Pewter Gray",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-pewter_gray.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-pewtergray-house_1000.jpg", "https://www.serrano2roofing.com/wp-content/gallery/roof-replacement-with-gaf-hdz-in-pewter-gray/roof-replacement-gaf-hdz-pewter-gray-7__after.jpg"],
+    pickerImage: "img/pewtergray-picker.webp",
+    displayImages: ["img/pewtergray-1.webp", "img/pewtergray-2.webp",],
     active: true,
   },
   {
     name: "Hunter Green",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-hunter_green.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-huntergreen-house_1000.jpg", "https://www.serrano2roofing.com/wp-content/gallery/hunter-green-roof-replacement-in-wurtsboro/hunter-green-roof-replacement-in-wurtsboro-7.png", "https://www.serrano2roofing.com/wp-content/gallery/hunter-green-roof-replacement-in-wurtsboro/hunter-green-roof-replacement-in-wurtsboro-6.jpg"],
+    pickerImage: "img/huntergreen-picker.webp",
+    displayImages: ["img/huntergreen-1.webp", "img/huntergreen-2.webp", "img/huntergreen-3.webp",],
     active: true,
   },
   {
     name: "Charcoal",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-charcoal.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-charcoal-house_1000.jpg", "https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/hdz-charcoal-windproven-brickhouse-aerialshot_1000.jpg", ],
+    pickerImage: "img/charcoal-picker.webp",
+    displayImages: ["img/charcoal-1.webp", "img/charcoal-2.webp", "img/charcoal-3.webp",],
     active: true,
   },
   {
     name: "Birchwood",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-birchwood.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-birchwood-house_1000.jpg"],
+    pickerImage: "img/birchwood-picker.webp",
+    displayImages: ["img/birchwood-1.webp"],
     active: true,
   },
   {
     name: "Biscayne Blue",
-    pickerImage: "https://www.gaf.com/-/media/shingleswatches/720x720swatches/timberline_hd-biscayne_blue.jpg",
-    displayImages: ["https://www.gaf.com/-/media/shingleinstalledhomes/1000x1000/hdz/tlhdz-biscayneblue-house_1000.jpg"],
+    pickerImage: "img/biscayneblue-picker.webp",
+    displayImages: ["img/biscayneblue-1.webp"],
     active: true,
   },
+  {
+    name: "Weathered Wood",
+    pickerImage: "img/weatheredwood-picker.webp",
+    displayImages: ["img/weatheredwood-1.webp", "img/weatheredwood-2.webp"],
+    active: true,
+  }
 ];
 
 export default options;
