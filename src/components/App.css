@@ -169,6 +169,16 @@ main {
   text-align: center;
 }
 
+footer a:link {
+  text-decoration: inherit;
+  color: #9F889C;
+}
+
+footer a:visited {
+  text-decoration: inherit;
+  color: gray;
+}
+
 @media all and (min-width : 320px) and (max-width : 1200px) {
   .row {
     flex-direction:column-reverse;
