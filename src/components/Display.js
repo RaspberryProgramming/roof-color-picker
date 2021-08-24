@@ -5,7 +5,7 @@ const Display = ({options, selected, index, handleSelect}) => {
   const images = options[selected].displayImages.map((image, index) => {
     return (
       <Carousel.Item key={index} >
-        <img alt={index} src={image} className="d-block"/>
+        <img alt={index} src={image} className="d-block w-100"/>
           <Carousel.Caption>
             <a className="btn btn-dark" href={image} target="_blank" rel="noreferrer">Open in Another Tab</a>
           </Carousel.Caption>
