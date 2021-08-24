@@ -14,13 +14,19 @@ const options = [
   {
     name: "Pewter Gray",
     pickerImage: "img/pewtergray-picker.webp",
-    displayImages: ["img/pewtergray-1.webp", "img/pewtergray-2.webp",],
+    displayImages: ["img/pewtergray-1.webp", "img/pewtergray-2.webp", "img/pewtergray-3.webp",],
     active: true,
   },
   {
     name: "Hunter Green",
     pickerImage: "img/huntergreen-picker.webp",
     displayImages: ["img/huntergreen-1.webp", "img/huntergreen-2.webp", "img/huntergreen-3.webp",],
+    active: true,
+  },
+  {
+    name: "Shakewood",
+    pickerImage: "img/shakewood-picker.webp",
+    displayImages: ["img/shakewood-1.webp", "img/shakewood-2.webp",],
     active: true,
   },
   {
