@@ -81,7 +81,13 @@ main {
 .carousel img {
   background-position: center;
   height:100%;
+  width:100%;
   object-fit: cover;
+}
+
+.carousel-inner {
+  height:100% !important;
+  width:100% !important;
 }
 
 .row,
@@ -236,10 +242,6 @@ footer a:visited {
     width:100vw;
     height:100vw;
     border-style: none;
-  }
-  .display img {
-    width:100vw;
-    height:100vw;
   }
   .navbar {
     flex: 0 1 auto;
