@@ -20,8 +20,10 @@ const About = ({visibleWidgets, toggleWidget}) => {
           <hr />
         </div>
         <div className="d-flex flex-column p-5">
+          <p>Please let me know what you think. You can contact me, or see other projects at the links below.</p>
           <p>Created by Camerin Figueroa</p>
-          <p>Contact: <a href="mailto:admin@camsprojects.online">admin@camsprojects.online</a></p>
+          <p>Portfolio: <a href="https://www.camscode.com/">camscode.com</a></p>
+          <p>Contact: <a href="mailto:cam@camscode.com">cam@camscode.com</a></p>
           <p>Github: <a href="https://github.com/RaspberryProgramming" target="_blank" rel="noopener noreferrer">RaspberryProgramming</a></p>
           <hr />
           <p>Images sourced from:</p>
